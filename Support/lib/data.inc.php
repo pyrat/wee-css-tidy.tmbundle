@@ -458,7 +458,7 @@ $GLOBALS['csstidy']['predefined_templates']['highest_compression'][] = '';
 $GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '<span class="at">';
 $GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '</span> <span class="format">{</span>'."\n";
 $GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '<span class="selector">';
-$GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '</span>'."\n".'<span class="format">{</span>'."\n";
+$GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '</span> <span class="format">{</span>'."\n";
 $GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '  <span class="property">';
 $GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '</span><span class="value">';
 $GLOBALS['csstidy']['predefined_templates']['low_compression'][] = '</span><span class="format">;</span>'."\n";
