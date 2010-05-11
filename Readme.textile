@@ -1,0 +1,3 @@
+h1. Wee CSS Tidy
+
+This is a textmate bundle *currently unfinished* for formatting CSS files. It hooks into the PHP version of CSS Tidy.
