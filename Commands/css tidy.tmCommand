@@ -15,15 +15,19 @@ $input = file_get_contents('php://stdin');
 # class.
 
 $css = new csstidy();
-echo $css-&gt;parse($input);
+$css-&gt;parse($input);
+$css-&gt;load_template('low_compression');
+echo $css-&gt;print-&gt;plain();
 ?&gt;
 </string>
 	<key>input</key>
-	<string>selection</string>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^~@c</string>
 	<key>name</key>
 	<string>css tidy</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>replaceDocument</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>uuid</key>
