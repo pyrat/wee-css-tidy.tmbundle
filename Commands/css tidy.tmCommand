@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php 
+&lt;?php
+include $_ENV['TM_BUNDLE_SUPPORT'] . '/lib/class.csstidy.php';
+
+$input = file_get_contents('php://stdin');
+
+# might need to add some options to the css tidy
+# class.
+
+$css = new csstidy();
+echo $css-&gt;parse($input);
+?&gt;
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>css tidy</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>uuid</key>
+	<string>E97CCC0A-7452-4183-B1E8-CCDB269D7E7C</string>
+</dict>
+</plist>
