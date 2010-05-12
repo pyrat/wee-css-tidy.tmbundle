@@ -1,3 +1,15 @@
 h1. Wee CSS Tidy
 
-This is a textmate bundle *currently unfinished* for formatting CSS files. It hooks into the PHP version of CSS Tidy.
+h2. Background
+
+The bundle is hosted on github. It uses the excellent "CSStidy project":http://csstidy.sourceforge.net/ behind the scenes so make sure that you have php installed on your machine as CLI.  > version 5.
+
+Ctrl + alt + option + c will beautify your css file that you have open in the browser. It assumes that you are using 2 spaces for a tab instead of tab characters. So make sure you are using soft tabs in your code.
+
+h2. Install Instructions
+
+* "Download it":http://github.com/pyrat/wee-css-tidy.tmbundle/zipball/master 
+* Double click on the tmbundle to install it.
+
+!http://img.skitch.com/20100512-nc1qq9b2hqg5x5ad2u58d32b3c.jpg!
+
