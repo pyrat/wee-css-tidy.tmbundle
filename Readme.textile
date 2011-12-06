@@ -13,3 +13,4 @@ h2. Install Instructions
 
 !http://img.skitch.com/20100512-nc1qq9b2hqg5x5ad2u58d32b3c.jpg!
 
+Please report any bugs that you come across, add functionality as you see fit.
